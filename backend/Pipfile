@@ -1,0 +1,37 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+coverage = "*"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+djangorestframework-simplejwt = "*"
+django-cors-headers = "*"
+pyjwt = "*"
+cloudinary = "*"
+pillow = "*"
+psycopg2-binary = "*"
+coreapi = "*"
+pyyaml = "*"
+drf-yasg = "*"
+django-redis = "*"
+celery = "*"
+coverage = "*"
+install = "*"
+python-dotenv = "*"
+gunicorn = "*"
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+server = "python manage.py runserver 0.0.0.0:8000"
+makemigrations = "python manage.py makemigrations"
+migrate = "python manage.py migrate"
+celery = "celery -A config worker --loglevel=INFO"
