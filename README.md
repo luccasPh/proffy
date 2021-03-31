@@ -50,11 +50,9 @@ Esta e a versão 2.0 deixado com desafio no final do evento, [Proffy 2.0](https:
 
 - ### **Pré-requisitos**
 
-  - É **necessário** possuir o **[Python 3.8](https://www.python.org/)** instalado no computador
   - É **necessário** possuir o **[Git](https://git-scm.com/)** instalado e configurado no computador
-  - É **necessário** possuir o **[Docker & Docker Compose](https://www.docker.com/)** instalado e configurado no computador
-  - Também, é **preciso** ter o gerenciador de pacotes **[Pipenv](https://pipenv.pypa.io/en/latest/)** instalado na máquina.
-  - Por fim, é **essencial** ter o **[Expo](https://expo.io/)** instalado de forma global na máquina
+  - Para o backend e frontend, é **necessário** possuir o **[Docker & Docker Compose](https://www.docker.com/)** instalado e configurado no computador
+  - Para o mobile, é **essencial** ter o **[Expo](https://expo.io/)** instalado de forma global na máquina
 
 - ### **Clonando o projeto**
   ```sh
